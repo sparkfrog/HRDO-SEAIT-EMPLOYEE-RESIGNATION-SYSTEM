@@ -129,10 +129,10 @@ include '../components/adminNavigation.php';
                                 </label>
                                 <select name="employee_status" class="form-select">
                                     <option value="">Select Status</option>
-                                    <option value="Resigned" <?php echo (isset($_POST['employee_status']) && $_POST['employee_status'] == 'Resigned') ? 'selected' : ''; ?>>Resigned</option>
-                                    <option value="Retired" <?php echo (isset($_POST['employee_status']) && $_POST['employee_status'] == 'Retired') ? 'selected' : ''; ?>>Retired</option>
-                                    <option value="Terminated" <?php echo (isset($_POST['employee_status']) && $_POST['employee_status'] == 'Terminated') ? 'selected' : ''; ?>>Terminated</option>
-                                    <option value="Contract Ended" <?php echo (isset($_POST['employee_status']) && $_POST['employee_status'] == 'Contract Ended') ? 'selected' : ''; ?>>Contract Ended</option>
+                                    <option value="Probationary" <?php echo (isset($_POST['employee_status']) && $_POST['employee_status'] == 'Probationary') ? 'selected' : ''; ?>>Probationary</option>
+                                    <option value="Regular" <?php echo (isset($_POST['employee_status']) && $_POST['employee_status'] == 'Regular') ? 'selected' : ''; ?>>Regular</option>
+                                    <option value="Project-Based" <?php echo (isset($_POST['employee_status']) && $_POST['employee_status'] == 'Project-Based') ? 'selected' : ''; ?>>Project-Based</option>
+                                    
                                 </select>
                             </div>
                         </div>

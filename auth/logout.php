@@ -3,7 +3,7 @@ session_start();
 
 // Destroy all session data
 $_SESSION = array();
-
+//logout.php
 // Destroy the session cookie
 if (isset($_COOKIE[session_name()])) {
     setcookie(session_name(), '', time() - 3600, '/');

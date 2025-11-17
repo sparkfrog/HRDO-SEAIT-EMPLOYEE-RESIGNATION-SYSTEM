@@ -355,7 +355,7 @@ Role:     Admin
 ```
 URL:      http://localhost/HRDO-SEAIT-EMPLOYEE-RESIGNATION-SYSTEM/
 Username: hrstaff
-Password: password
+Password: password211
 Role:     HR STAFF
 ```
 

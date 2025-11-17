@@ -144,24 +144,6 @@ include '../components/hrstaffNavigation.php';
         </div>
     </div>
 
-    <!-- Statistics Cards -->
-    <div class="row g-4 mb-4">
-        <?php
-        $stats = [
-            ['icon'=>'fas fa-users', 'color'=>'primary', 'count'=>$total_employees, 'label'=>'Total Resignations'],
-            ['icon'=>'fas fa-sitemap', 'color'=>'success', 'count'=>$total_departments, 'label'=>'Departments'],
-            ['icon'=>'fas fa-user-shield', 'color'=>'info', 'count'=>$total_users, 'label'=>'Active Users'],
-        ];
-        foreach($stats as $stat): ?>
-            <div class="col-md-4">
-                <div class="card shadow-sm rounded-xl hover-shadow p-4 text-center">
-                    <i class="<?= $stat['icon'] ?> fa-3x text-<?= $stat['color'] ?> mb-3"></i>
-                    <h3 class="fw-bold mb-1"><?= $stat['count'] ?></h3>
-                    <p class="text-muted mb-0"><?= $stat['label'] ?></p>
-                </div>
-            </div>
-        <?php endforeach; ?>
-    </div>
 
     <!-- Charts -->
     <div class="row g-4 mb-4">
